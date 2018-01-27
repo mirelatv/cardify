@@ -1,0 +1,27 @@
+{
+  "name": "cardify",
+  "version": "1.0.0",
+  "description": "Plug-in de jQuery que dado un contenedor busca todas la imágens que encuentre dentro de sí y las reemplaza por un figure que contenga img y figcaption con el atributo alt de la imagen y que lo muestre al pasarle el mouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LizbethFP/cardify.git"
+  },
+  "keywords": [
+    "jQuery",
+    "plug-in",
+    "img",
+    "figure",
+    "figcaption",
+    "hover"
+  ],
+  "author": "Noelia y Lizbeth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LizbethFP/cardify/issues"
+  },
+  "homepage": "https://github.com/LizbethFP/cardify#readme"
+}
