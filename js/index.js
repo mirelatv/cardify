@@ -1,8 +1,7 @@
-(function ($) {
 
-  $.fn.cardify = function () {
-
-    this.filter("img").each(function () {
+(function($) {
+  $.fn.cardify = function() {
+    this.filter('img').each(function() {
       /* debugger;*/
       var elem = $(this);
       var text = $(this).attr('alt');
