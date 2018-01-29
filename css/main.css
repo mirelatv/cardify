@@ -1,4 +1,8 @@
 /* Clases reutilizables */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 .container{
     margin-top:10%;
     border:2px solid rgb(15, 15, 92);

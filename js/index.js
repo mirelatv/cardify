@@ -1,4 +1,3 @@
-
 (function($) {
   $.fn.cardify = function() {
     this.filter('img').each(function() {
