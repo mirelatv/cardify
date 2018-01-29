@@ -4,13 +4,13 @@
   $.fn.cardify = function() {
 
       this.filter( "img" ).each(function() {
+         /* debugger;*/
           var elem = $( this );
-          var Alt= $(this).attr();
-          console.log('textAlt');
-          elem.wrap('<figure></figure>' );
-          $('figure').append('<figcaption></figcaption>');
-          
-          
+          var text= $(this).attr('alt');
+          console.log(text);
+          elem.wrap('<figure></figure>').parent();
+          elem.parent().append('<figcaption></figcaption>');
+          elem.next().text(text);
       });
 
       return this;
