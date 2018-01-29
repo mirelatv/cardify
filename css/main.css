@@ -12,7 +12,10 @@ body {
     display: flex;
     bottom: 0%;
     margin-left: 45%;
-
+    
+}
+h1{
+    text-align: center;
 }
 
 
