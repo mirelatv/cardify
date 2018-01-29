@@ -11,6 +11,8 @@
           elem.wrap('<figure></figure>').parent();
           elem.parent().append('<figcaption></figcaption>');
           elem.next().text(text);
+         /* $('figcaption').css('display','none')*/
+       
       });
 
       return this;
