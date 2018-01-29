@@ -1,12 +1,22 @@
-$.fn.changeImg = function() {
-  // Alerta para probar que se ha linkeado el JS del plug-in correctamente
-  alert('está pasando');
-  
-  // `container` es el selector del contenedor donde se buscarán todas las
-  // imágenes a ser procesadas.
-  var container = $('.container');
-  container.on('click', function() {
-    console.log(container);
-  });
-  // $(container).cardify({});
-};
+
+(function( $ ) {
+ 
+  $.fn.cardify = function() {
+
+      this.filter( "img" ).each(function() {
+         /* debugger;*/
+          var elem = $( this );
+          var text= $(this).attr('alt');
+          console.log(text);
+          elem.wrap('<figure></figure>').parent();
+          elem.parent().append('<figcaption></figcaption>');
+          elem.next().text(text);
+         /* $('figcaption').css('display','none')*/
+       
+      });
+
+      return this;
+
+  };
+
+}( jQuery ));

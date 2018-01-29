@@ -1,3 +1,15 @@
 /* Clases reutilizables */
+.container{
+    margin-top:10%;
+    border:2px solid rgb(15, 15, 92);
+    }
+.btn-danger{
+    margin-top: 10%;
+    display: flex;
+    bottom: 0%;
+    margin-left: 45%;
+
+}
+
 
 /* Clases específicas */
