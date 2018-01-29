@@ -1,6 +1,12 @@
+<<<<<<< HEAD
+(function($) {
+  $.fn.cardify = function() {
+    this.filter('img').each(function() {
+=======
 (function ($) {
   $.fn.cardify = function () {
     this.filter('img').each(function () {
+>>>>>>> fd2d2d7cd9b2d56a1635ea5add4fee1c44aee2b1
       /* debugger;*/
       let elem = $(this);
       let text = $(this).attr('alt');
