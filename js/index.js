@@ -1,10 +1,9 @@
-
-(function($) {
-  $.fn.cardify = function() {
-    this.filter('img').each(function() {
+(function ($) {
+  $.fn.cardify = function () {
+    this.filter('img').each(function () {
       /* debugger;*/
-      var elem = $(this);
-      var text = $(this).attr('alt');
+      let elem = $(this);
+      let text = $(this).attr('alt');
       console.log(text);
       elem.wrap('<figure></figure>').parent();
       elem.parent().append('<figcaption></figcaption>');
@@ -17,10 +16,15 @@
         $('figcaption').show(5000);
       });
 
+
+
+
+
+      
       // dando css al img
 
-      $('figure').css('display','inline-block');
-      $('figure').css('margin','10px');
+      $('figure').css('display', 'inline-block');
+      $('figure').css('margin', '10px');
 
       // dando ccs al figcaption
       $('figcaption').css('text-align', 'center');
