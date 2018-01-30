@@ -1,6 +1,6 @@
-(function ($) {
-  $.fn.cardify = function () {
-    this.filter('img').each(function () {
+(function($) {
+  $.fn.cardify = function() {
+    this.filter('img').each(function() {
       /* debugger;*/
       let elem = $(this);
       let text = $(this).attr('alt');
@@ -23,12 +23,8 @@
         elem.next().hide(8000);
 
       });
-
-
     });
 
     return this;
-
   };
-
 }(jQuery));
