@@ -18,6 +18,10 @@ figure {
   display: inline-block;
 }
 
+img {
+  width: 100%;
+}
+
 /* Clases específicas */
 .container {
   border:2px solid #EF6957;
