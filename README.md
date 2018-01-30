@@ -27,14 +27,14 @@ En la primera semana, se tomó la decisión de optar por el reto de Cardify; se 
 En la segunda semana, se actualizará la información del README con los snippets del plug-in y se asignará las tareas de funcionalidad del plug-in entre ambas partners.
 
 ### Issue - Semana 1
-![Sin titulo](assets/docs/issue-1.JPG)
+![Sin titulo](public/assets/docs/issue-1.JPG)
 
 
 #### Se elaboró en pareja un mapeo del flujo del plug-in
-![Sin titulo](assets/docs/plug-in-idea.jpg)
+![Sin titulo](public/assets/docs/plug-in-idea.jpg)
 
 ### Issue - Semana 2
-![Sin titulo](assets/docs/issue-2.JPG)
+![Sin titulo](public/assets/docs/issue-2.JPG)
 
 
 ## Instalación
