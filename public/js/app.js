@@ -1,4 +1,6 @@
-window.addEventListener('load', loadedPage = () => {
+'use strict';
+
+window.addEventListener('load', function loadedPage() {
   // let bodyPS = document.querySelector('.container');
   // bodyPS.addEventListener('click',
   /* FUNCIÓN PARA SUBIR IMÁGENES DINÁMICAMENTE */
@@ -15,5 +17,5 @@ window.addEventListener('load', loadedPage = () => {
   $(function() {
     $('img').cardify();
   });
-// Llave de cierre de función general
+  // Llave de cierre de función general
 });
