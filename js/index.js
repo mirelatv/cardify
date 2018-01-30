@@ -8,7 +8,7 @@
       elem.wrap('<figure></figure>').parent();
       elem.parent().append('<figcaption></figcaption>');
       elem.next().text(text);
-      $('figure').css('padding', '5%');
+      // $('figure').css('padding', '5%');
 
       // Ocultando figcaption
       elem.next().hide();
