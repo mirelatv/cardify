@@ -20,17 +20,17 @@
 
       // funcion hover para   mostrar el figcaption
 
-      elem.mouseover(function() {
-        elem.hide(3000);
-        $('figcaption').css('font-size', '30px');
-        $('figcaption').show(3000);
-        elem.css('margin-left', ' 40px');
-      });
+      // elem.mouseover(function() {
+      //   elem.hide(3000);
+      //   // $('figcaption').css('font-size', '30px');
+        $('figcaption').show();
+      //   // elem.css('margin-left', ' 40px');
+      // });
       // funcion  mouseleve para  mostrar img y ocultar figcaption
-      elem.mouseleave(function() {
-        elem.show(3000);
-        $('figcaption').hide(3000);
-      });
+      // elem.mouseleave(function() {
+      //   elem.show(3000);
+      //   $('figcaption').hide(3000);
+      // });
 
 
       // dando css al img
