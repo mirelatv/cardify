@@ -4,7 +4,7 @@
   "description": "Plug-in de jQuery que dado un contenedor busca todas la imágens que encuentre dentro de sí y las reemplaza por un figure que contenga img y figcaption con el atributo alt de la imagen y que lo muestre al pasarle el mouse",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel --presets env src -d public/js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/LizbethFP/cardify/issues"
   },
-  "homepage": "https://github.com/LizbethFP/cardify#readme"
+  "homepage": "https://github.com/LizbethFP/cardify#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
 }
