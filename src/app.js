@@ -1,4 +1,4 @@
-window.addEventListener('load', loadedPage = () => {
+window.addEventListener('load', () => {
   // let bodyPS = document.querySelector('.container');
   // bodyPS.addEventListener('click',
   /* FUNCIÓN PARA SUBIR IMÁGENES DINÁMICAMENTE */
