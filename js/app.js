@@ -1,15 +1,3 @@
-// $(document).ready(() => {
-//   /* Función para subir imágenes dinámicamente */
-//   $(function() {
-//
-//   });
-//
-//   /* Función para ejecutar plug-in*/
-//   $(function() {
-//     $('img').cardify();
-//   });
-// });
-
 window.addEventListener('load', loadedPage => {
   // let bodyPS = document.querySelector('.container');
   // bodyPS.addEventListener('click',
