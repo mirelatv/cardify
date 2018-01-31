@@ -20,10 +20,11 @@ figure {
 
 img {
   width: 100%;
+  box-shadow: 7px 6px 32px -10px rgba(0,0,0,0.62);
 }
 
 /* Clases específicas */
-.container {
+.picture-container {
   border:2px solid #EF6957;
   border-radius: 15px;
   box-shadow: 6px 6px 23px 0px rgba(239,105,87,0.21)
