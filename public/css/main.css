@@ -13,12 +13,18 @@ footer {
 }
 
 figure {
-  height: 50vh;
   width: 30%;
+  margin: 1em;
+  display: inline-block;
+}
+
+img {
+  width: 100%;
 }
 
 /* Clases específicas */
 .container {
   border:2px solid #EF6957;
   border-radius: 15px;
+  box-shadow: 6px 6px 23px 0px rgba(239,105,87,0.21)
 }
