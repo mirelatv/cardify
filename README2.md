@@ -11,7 +11,7 @@ Se ha creado un issue, en el que se señala las tareas  a ejecutar  de forma equ
 
 En la segunda semana se  desarrollo el  codigo del pluggin, el llamado desde  el app/js,la  maquetacion del html que  sera  la presentacion de  nuestro proyecto; se asignaron las tareas de organización e investigación para  la implementacion de  Babel en el proyecto Cardify;la distribucion de  tareas  quedo de  la siguiente forma:
 
-* Codigo del Pluggin - Noelia 
+* Codigo del Pluggin - Noelia
 * Funcion de  llamada  desde  app/js - Noelia
 * Maquetacion de  la Pagina, usando  Boostrap y  css  -  Lizbeth
 * Inicialización de  Babel  - Lizbeth
@@ -24,7 +24,7 @@ En la segunda semana se  desarrollo el  codigo del pluggin, el llamado desde  el
 ![Sin titulo](assets/docs/issue-3.png)
 
 
-
+:)
 
 
 ...
