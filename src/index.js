@@ -1,7 +1,7 @@
-(function($) {
-  $.fn.cardify = function() {
+(function ($) {
+  $.fn.cardify = function () {
     /* FUNCIÓN PARA ASIGNAR FIGURE A IMG COMO PADRE Y AGREGAR FIGCAPTION */
-    this.filter('img').each(function() {
+    this.filter('img').each(function () {
       /* debugger;*/
       let elem = $(this);
       let text = $(this).attr('alt');
@@ -10,22 +10,37 @@
       elem.parent().append('<figcaption></figcaption>');
       elem.next().text(text);
 
-      // Ocultando figcaption
-      elem.next().hide();
-      elem.next().css('text-align', 'center');
-
-      /* FUNCIÓN PARA ESCONDER IMAGEN Y MOSTRAR FIGCAPTION AL PASAR MOUSE*/
-      elem.mouseover(() => {
-        elem.hide(1000);
-        elem.next().show(1000);
+      // CLASES  EN FIGCAPTION
+      elem.next().css({
+        'opacity': '0',
+        'text-align': 'center',
+        'position': 'absolute',
+        'margin-top': '-10%',
+        'margin-left': '10%',
+        'font-size': '20px',
       });
 
-      /* FUNCIÓN PARA MOSTRAR IMAGEN Y ESCONDER FIGCAPTION AL PASAR MOUSE*/
-      elem.mouseleave(() => {
-        elem.show(8000);
-        elem.next().hide(8000);
-      });
+      // CONDICION PARA EVENTO CON EL MOUSE
+
+      if (EventTarget == elem || elem.parent() || elem.next) {
+
+        /* FUNCIÓN PARA ESCONDER IMAGEN Y MOSTRAR FIGCAPTION AL PASAR MOUSE*/
+        elem.mouseover(function () {
+          elem.css('opacity', '0');
+          elem.next().css({
+            'opacity': '1'
+          });
+        });
+
+        /* FUNCIÓN PARA MOSTRAR IMAGEN Y ESCONDER FIGCAPTION AL PASAR MOUSE*/
+        elem.mouseleave(function () {
+          elem.css('opacity', '1');
+          elem.next().css('opacity', '0');
+        });
+
+      }
     });
     return this;
   };
-}(jQuery));
+})(jQuery);
+
