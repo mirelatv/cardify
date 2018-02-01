@@ -1,10 +1,12 @@
-(function($) {
-  $.fn.cardify = function() {
+'use strict';
+
+(function ($) {
+  $.fn.cardify = function () {
     /* FUNCIÓN PARA ASIGNAR FIGURE A IMG COMO PADRE Y AGREGAR FIGCAPTION */
-    this.filter('img').each(function() {
+    this.filter('img').each(function () {
       /* debugger;*/
-      let elem = $(this);
-      let text = $(this).attr('alt');
+      var elem = $(this);
+      var text = $(this).attr('alt');
       console.log(text);
       elem.wrap('<figure></figure>').parent();
       elem.parent().append('<figcaption></figcaption>');
@@ -15,17 +17,17 @@
         'opacity': '0',
         'text-align': 'center',
         'position': 'absolute',
-        'margin-top': '-9%',
-        'margin-left': '9%',
-        'font-size': '20px',
+        'margin-top': '-10%',
+        'margin-left': '10%',
+        'font-size': '20px'
       });
 
       // CONDICION PARA EVENTO CON EL MOUSE
 
       if (EventTarget == elem || elem.parent() || elem.next) {
+
         /* FUNCIÓN PARA ESCONDER IMAGEN Y MOSTRAR FIGCAPTION AL PASAR MOUSE*/
-        elem.mouseover(function() {
-          elem.parent().addClass('img-bckgrnd-color ');
+        elem.mouseover(function () {
           elem.css('opacity', '0');
           elem.next().css({
             'opacity': '1'
@@ -33,7 +35,7 @@
         });
 
         /* FUNCIÓN PARA MOSTRAR IMAGEN Y ESCONDER FIGCAPTION AL PASAR MOUSE*/
-        elem.mouseleave(function() {
+        elem.mouseleave(function () {
           elem.css('opacity', '1');
           elem.next().css('opacity', '0');
         });
