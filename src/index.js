@@ -15,8 +15,8 @@
         'opacity': '0',
         'text-align': 'center',
         'position': 'absolute',
-        'margin-top': '-9%',
-        'margin-left': '9%',
+        'margin-top': '-14%',
+        'margin-left': '10%',
         'font-size': '20px',
       });
 
@@ -25,7 +25,7 @@
       if (EventTarget == elem || elem.parent() || elem.next) {
         /* FUNCIÓN PARA ESCONDER IMAGEN Y MOSTRAR FIGCAPTION AL PASAR MOUSE*/
         elem.mouseover(function() {
-          elem.parent().addClass('img-bckgrnd-color ');
+          elem.parent().addClass('img-bckgrnd-color');
           elem.css('opacity', '0');
           elem.next().css({
             'opacity': '1'

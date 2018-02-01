@@ -11,8 +11,9 @@ window.addEventListener('load', () => {
   //   imagesContainer.appendChild(img);
   // };
 
-  /* FUNCIÓN PARA EJECUTAR PLUG-IN */
-  $(function() {
+  /* FUNCIÓN PARA EJECUTAR PLUG-IN AL DARLE CLIC AL BOTÓN */
+  let btnTest = document.getElementById('btn-test');
+  btnTest.addEventListener('click', () => {
     $('img').cardify();
   });
 // Llave de cierre de función general
