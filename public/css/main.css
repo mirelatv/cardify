@@ -8,9 +8,14 @@ body {
   background-color: #EF6957!important;
 }
 
-footer {
-  /* background-color: #A5A8A8; */
-  background-color: #B2AA8E;
+a {
+  display: inline-block;
+  padding: .375rem .75rem;
+  border-radius: .25rem;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 figure {
@@ -24,6 +29,11 @@ img {
   width:100%;
   box-shadow: 7px 6px 32px -10px rgba(0,0,0,0.62);
   border-radius: 25px;
+}
+
+footer {
+  /* background-color: #A5A8A8; */
+  background-color: #B2AA8E;
 }
 
 /* Clases específicas */
@@ -61,6 +71,7 @@ border-radius: 0.2em;
   background-color: #3C1518;
   /* background-color: #5F3F42; */
   color: #FAFAFA;
+  letter-spacing: 1px;
 }
 
 .btn-style:hover{
