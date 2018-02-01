@@ -10,7 +10,7 @@
   <!-- link a fontawesome  -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- link de googlefonts -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
   <!-- link main CSS -->
   <link rel="stylesheet" href="css/main.css">
   <!-- Título de pestaña -->
@@ -47,16 +47,25 @@
         </div>
         <div class="col-12 col-md-6 mt-5">
           <div class="row">
-            <h2 class="font-weight-bold text-capitalize main-title col-12 text-center">cardify jQuery plug-in
+            <h2 class="font-weight-bold main-title col-12 text-center">Cardify jQuery Plug-in
             </h2>
           </div>
           <div class="row">
-            <p class="info mt-5 text-justify col-10 offset-1">Busca todas las imágenes que encuentre dentro de un contenedor y las reemplaza por un nuevo elemento "figure" que contenga la imagen ("img") además de un "figcaption" con el texto del atributo alt de la imagen, lo que se muestra encima de la imagen que desaparece.
+            <p class="info mt-5 text-justify col-10 offset-1">Organiza semánticamente un <code>img</code> dentro de un <code>figure</code>, añade un <code>figcaption</code> conteniendo su <code>alt</code> encima y en el medio. Para ejecutar este plug-in, se debe agregar la siguiente línea de código dentro del <code>js</code> en el que se trabajará:
             </p>
-            <code lang="js">   $('img').cardify();</code>
           </div>
-          <div class="row">
-            <button type="button" name="button" class="btn btn-style mt-2 text-center mx-auto" id="btn-test">¡Pruébalo!</button>
+          <div class="row mt-3 ">
+            <code lang="js" class="col-9 offset-2 col-sm-9 offset-sm-3 col-md-8 offset-md-2 col-lg-6 offset text-justify code-box p-1">
+              $('img').cardify();</code>
+          </div>
+          <div class="row mt-5">
+            <div class="col-5 offset-1">
+              <button type="button" name="button" class="btn btn-style text-center mx-auto" id="btn-test">¡Pruébalo!</button>
+            </div>
+            <div class="col-5 offset-1">
+              <a href="#" class="mx-auto">Reinicia</a>
+            </div>
+
           </div>
         </div>
       </div>

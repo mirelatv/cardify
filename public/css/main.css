@@ -1,6 +1,6 @@
 /* Clases reutilizables */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Nunito', sans-serif;
   background-color: #FAFAFA;
 }
 
@@ -9,7 +9,8 @@ body {
 }
 
 footer {
-  background-color: #A5A8A8;
+  /* background-color: #A5A8A8; */
+  background-color: #B2AA8E;
 }
 
 figure {
@@ -21,10 +22,6 @@ figure {
 img {
   width: 100%;
   box-shadow: 7px 6px 32px -10px rgba(0,0,0,0.62);
-}
-
-figcaption {
-  color: B3B3B3!important;
 }
 
 /* Clases específicas */
@@ -43,10 +40,19 @@ figcaption {
 
 .main-title {
   color: #3C1518;
+  font-size: 40px;
+  letter-spacing: 3px;
 }
 
 .info {
   color: #3C3E3E;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+}
+
+.code-box {
+background-color: #DEE1DF;
+/* background-color: #F4F7F5; */
 }
 
 .btn-style {
