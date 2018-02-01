@@ -1,9 +1,9 @@
 'use strict';
 
-(function ($) {
-  $.fn.cardify = function () {
+(function($) {
+  $.fn.cardify = function() {
     /* FUNCIÓN PARA ASIGNAR FIGURE A IMG COMO PADRE Y AGREGAR FIGCAPTION */
-    this.filter('img').each(function () {
+    this.filter('img').each(function() {
       /* debugger;*/
       var elem = $(this);
       var text = $(this).attr('alt');
@@ -25,9 +25,8 @@
       // CONDICION PARA EVENTO CON EL MOUSE
 
       if (EventTarget == elem || elem.parent() || elem.next) {
-
         /* FUNCIÓN PARA ESCONDER IMAGEN Y MOSTRAR FIGCAPTION AL PASAR MOUSE*/
-        elem.mouseover(function () {
+        elem.mouseover(function() {
           elem.css('opacity', '0');
           elem.next().css({
             'opacity': '1'
@@ -35,7 +34,7 @@
         });
 
         /* FUNCIÓN PARA MOSTRAR IMAGEN Y ESCONDER FIGCAPTION AL PASAR MOUSE*/
-        elem.mouseleave(function () {
+        elem.mouseleave(function() {
           elem.css('opacity', '1');
           elem.next().css('opacity', '0');
         });
