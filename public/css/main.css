@@ -23,9 +23,22 @@ img {
   box-shadow: 7px 6px 32px -10px rgba(0,0,0,0.62);
 }
 
+figcaption {
+  color: B3B3B3!important;
+}
+
 /* Clases específicas */
 .picture-container {
   border:2px solid #EF6957;
   border-radius: 15px;
   box-shadow: 6px 6px 23px 0px rgba(239,105,87,0.21)
+}
+
+.img-bckgrnd-color {
+  background-color: #D09591;
+  border-radius: .25rem;
+}
+
+@media-query {
+  
 }
