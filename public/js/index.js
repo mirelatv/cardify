@@ -5,11 +5,12 @@
     /* FUNCIÓN PARA ASIGNAR FIGURE A IMG COMO PADRE Y AGREGAR FIGCAPTION */
     this.filter('img').each(function () {
       /* debugger;*/
-      var elem = $(this);
-      var text = $(this).attr('alt');
+      let elem = $(this);
+      let text = $(this).attr('alt');
       console.log(text);
       elem.wrap('<figure></figure>').parent();
       elem.parent().append('<figcaption></figcaption>');
+      $('figure').wrap()
       elem.next().text(text);
 
       // CLASES  EN FIGCAPTION

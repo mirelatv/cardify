@@ -1,7 +1,8 @@
-(function($) {
+(function ($) {
   $.fn.cardify = function() {
     /* FUNCIÓN PARA ASIGNAR FIGURE A IMG COMO PADRE Y AGREGAR FIGCAPTION */
-    this.filter('img').each(function() {
+    let container = $('.container-img');
+    container.find('img').each(function() {
       /* debugger;*/
       let elem = $(this);
       let text = $(this).attr('alt');
@@ -24,7 +25,7 @@
 
       if (EventTarget == elem || elem.parent() || elem.next) {
         /* FUNCIÓN PARA ESCONDER IMAGEN Y MOSTRAR FIGCAPTION AL PASAR MOUSE*/
-        elem.mouseover(function() {
+        elem.mouseover(() => {
           elem.parent().addClass('img-bckgrnd-color');
           elem.css('opacity', '0');
           elem.next().css({
@@ -33,7 +34,7 @@
         });
 
         /* FUNCIÓN PARA MOSTRAR IMAGEN Y ESCONDER FIGCAPTION AL PASAR MOUSE*/
-        elem.mouseleave(function() {
+        elem.mouseleave(() => {
           elem.css('opacity', '1');
           elem.next().css('opacity', '0');
         });
