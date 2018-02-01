@@ -49,30 +49,46 @@ En la segunda semana se  desarrollo el  codigo del pluggin, el llamado desde  el
 * Modificacion de  la  estructura  del proyecto -Lizbeth
 * Redaccion del README - Noelia
 * Consulta  a  profesores - Lizbeth - Noelia
+..
+
+
+## Semana - 2
+
+
+## Planificación
+Se ha creado un issue, en el que se señala las tareas  a ejecutar  de forma equitativa  en pareja.
+
+En la segunda semana se  desarrollo el  codigo del pluggin, el llamado desde  el app/js,la  maquetacion del html que  sera  la presentacion de  nuestro proyecto; se asignaron las tareas de organización e investigación para  la implementacion de  Babel en el proyecto Cardify;la distribucion de  tareas  quedo de  la siguiente forma:
+
+* Codigo del Pluggin - Noelia
+* Funcion de  llamada  desde  app/js - Noelia
+* Maquetacion de  la Pagina, usando  Boostrap y  css  -  Lizbeth
+* Inicialización de  Babel  - Lizbeth
+* Modificacion de  la  estructura  del proyecto -Lizbeth
+* Redaccion del README - Noelia
+* Consulta  a  profesores - Lizbeth - Noelia
 
 
 ### Issue - Semana 2
 ![Sin titulo](assets/docs/issue-3.png)
 
 
-...
 
-
-## Instalación
-
-### Global (navegador)
+### Link desde  el Html
 
 ```html
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="index.js"></script>
+<script src="js/index.js"></script>
+ <script type="text/javascript" src="js/app.js"></script>
+
 ```
 
-## Uso
+## Llamado del pluggin desde archivo JS.
+La estructura   de  llamado debe seguir  la estructura anexa.
 
 ```js
 // `container` es el selector del contenedor donde se buscarán todas las
 // imágenes a ser procesadas.
-$(container).cardify({});
+$(img).cardify({});
 ```
 
 ## Ejemplos
