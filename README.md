@@ -90,7 +90,3 @@ La estructura   de  llamado debe seguir  la estructura anexa.
 // imágenes a ser procesadas.
 $(img).cardify({});
 ```
-
-## Ejemplos
-
-...
