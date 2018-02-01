@@ -64,7 +64,7 @@ En la segunda semana se  desarrollo el  codigo del pluggin, el llamado desde  el
 
 ```
 
-## Llamado del pluggin desde archivo JS.
+## Llamado del plug-in desde archivo JS.
 La estructura   de  llamado debe seguir  la estructura anexa.
 
 ```js
@@ -72,3 +72,6 @@ La estructura   de  llamado debe seguir  la estructura anexa.
 // imágenes a ser procesadas.
 $(img).cardify({});
 ```
+## Descarga  del Plug-in
+
+Desde el   html  existe un link   para que el usuario pueda  descargarse  el  plug-in y hacer uso  del mismo, accediendo a un archivo zipeado con toda la  data  del  index.js ( version ES5).
