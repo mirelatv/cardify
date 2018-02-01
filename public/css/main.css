@@ -54,7 +54,7 @@ img {
 
 .code-box {
 background-color: #DEE1DF;
-/* background-color: #F4F7F5; */
+border-radius: 0.2em;
 }
 
 .btn-style {
