@@ -1,10 +1,12 @@
+'use strict';
+
 (function ($) {
   $.fn.cardify = function () {
     /* FUNCIÓN PARA ASIGNAR FIGURE A IMG COMO PADRE Y AGREGAR FIGCAPTION */
     this.filter('img').each(function () {
       /* debugger;*/
-      let elem = $(this);
-      let text = $(this).attr('alt');
+      var elem = $(this);
+      var text = $(this).attr('alt');
       console.log(text);
       elem.wrap('<figure></figure>').parent();
       elem.parent().append('<figcaption></figcaption>');
@@ -15,9 +17,9 @@
         'opacity': '0',
         'text-align': 'center',
         'position': 'absolute',
-        'margin-top': '-9%',
-        'margin-left': '9%',
-        'font-size': '20px',
+        'margin-top': '-10%',
+        'margin-left': '10%',
+        'font-size': '20px'
       });
 
       // CONDICION PARA EVENTO CON EL MOUSE
@@ -37,10 +39,8 @@
           elem.css('opacity', '1');
           elem.next().css('opacity', '0');
         });
-
       }
     });
     return this;
   };
 })(jQuery);
-
