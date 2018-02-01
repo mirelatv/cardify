@@ -14,8 +14,8 @@ footer {
 }
 
 figure {
-  width: 90%;
-  margin:2em 1em 3em 2em;
+  width: 80%;
+  margin:0.5em 1em 3em 2em;
   display: inline-block;
   border-radius: 15px;
 }
@@ -78,13 +78,15 @@ background-color: #DEE1DF;
 
 @media (min-width: 576px) {
   figure {
-    width: 65%;
+    width: 75%;
+    margin:2em 1em 3em 2em;
   }
 }
 
 @media (min-width: 992px) {
   figure {
     width: 35%;
+    margin:2em 1em 3em 2em;
   }
   figure:nth-child(odd){
     margin-left: 3em;
