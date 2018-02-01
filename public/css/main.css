@@ -13,7 +13,7 @@ footer {
 }
 
 figure {
-  width: 30%;
+  width: 80%;
   margin: 1em;
   display: inline-block;
 }
@@ -31,7 +31,9 @@ figcaption {
 .picture-container {
   border:2px solid #EF6957;
   border-radius: 15px;
-  box-shadow: 6px 6px 23px 0px rgba(239,105,87,0.21)
+  box-shadow: 6px 6px 23px 0px rgba(239,105,87,0.21);
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .img-bckgrnd-color {
@@ -39,6 +41,22 @@ figcaption {
   border-radius: .25rem;
 }
 
-@media-query {
-  
+.main-title {
+  color: #3C1518;
+}
+
+.info {
+  color: #3C3E3E;
+}
+
+.btn-style {
+  background-color: #3C1518;
+  /* 5F3F42; */
+  color: #FAFAFA;
+}
+
+@media (min-width: 576px) {
+  figure {
+    width: 35%;
+  }
 }
