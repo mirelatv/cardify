@@ -49,6 +49,13 @@ En la segunda semana se  desarrollo el  codigo del pluggin, el llamado desde  el
 ### Issue - Semana 2
 ![Sin titulo](public/assets/docs/issue-2.JPG)
 
+## Descarga  del plug-in
+
+Desde el   html  existe un link  para que el usuario pueda  descargarse  el  plug-in y utilizarlo, accediendo a un archivo zipeado con toda la  data  del  index.js (versión ES5).
+
+## Uso del plug-in
+
+El usuario deberá añadir las siguientes tres líneas de código en donde corresponda.
 
 ### Link desde  el Html
 
@@ -57,12 +64,16 @@ En la segunda semana se  desarrollo el  codigo del pluggin, el llamado desde  el
   <script type="text/javascript" src="js/app.js"></script>
 ```
 
-## Llamado del plug-in desde archivo JS.
-La estructura   de  llamado debe seguir  la estructura anexa:
+### Línea de código en el que se aplica el plug-in.
+El plug-in trabaja con una clase "container-img" como referencia para buscar las imágenes a las que ordenará semánticamente.
+
+```js
+  let container = $('.container-img');
+```
+
+### Llamado del plug-in desde archivo JS.
+La estructura   de  llamado debe seguir la estructura anexa:
 
 ```js
   $(img).cardify({});
 ```
-## Descarga  del Plug-in
-
-Desde el   html  existe un link   para que el usuario pueda  descargarse  el  plug-in y utilizarlo, accediendo a un archivo zipeado con toda la  data  del  index.js (versión ES5).
