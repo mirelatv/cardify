@@ -55,7 +55,6 @@ En la segunda semana se  desarrollo el  codigo del pluggin, el llamado desde  el
 ```html
   <script src="js/index.js"></script>
   <script type="text/javascript" src="js/app.js"></script>
-
 ```
 
 ## Llamado del plug-in desde archivo JS.
