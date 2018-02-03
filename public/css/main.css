@@ -74,13 +74,23 @@ border-radius: 0.2em;
   letter-spacing: 1px;
 }
 
-.btn-style:hover{
-  color: #FAFAFA;
+.btn-style:hover {
   background-color: #715457;
-  /* 715457; 826A6C*/
-
+  color: #FAFAFA;
   border-color: #545b62;
   font-weight: bold;
+}
+
+.disabled-btn {
+  background-color: #8E908E;
+  color: #3C3E3E;
+}
+
+.disabled-btn:hover {
+  background-color: #8E908E;
+  color: #3C3E3E;
+  border-color: #8E908E;
+  font-weight: normal;
 }
 
 .textFooter{
