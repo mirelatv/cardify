@@ -15,6 +15,8 @@ window.addEventListener('load', () => {
   let btnTest = document.getElementById('btn-test');
   btnTest.addEventListener('click', () => {
     $('img').cardify();
+    btnTest.disabled = true;
+    btnTest.classList.add('disabled-btn');
   });
 // Llave de cierre de función general
 });

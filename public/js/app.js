@@ -1,6 +1,6 @@
 'use strict';
 
-window.addEventListener('load', function () {
+window.addEventListener('load', function() {
   // let bodyPS = document.querySelector('.container');
   // bodyPS.addEventListener('click',
   /* FUNCIÓN PARA SUBIR IMÁGENES DINÁMICAMENTE */
@@ -15,9 +15,8 @@ window.addEventListener('load', function () {
 
   /* FUNCIÓN PARA EJECUTAR PLUG-IN AL DARLE CLIC AL BOTÓN */
   var btnTest = document.getElementById('btn-test');
-  btnTest.addEventListener('click', function () {
+  btnTest.addEventListener('click', function() {
     $('img').cardify();
   });
   // Llave de cierre de función general
 });
-

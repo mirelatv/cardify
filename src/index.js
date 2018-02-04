@@ -1,4 +1,4 @@
-(function ($) {
+(function($) {
   $.fn.cardify = function() {
     /* FUNCIÓN PARA ASIGNAR FIGURE A IMG COMO PADRE Y AGREGAR FIGCAPTION */
     let container = $('.container-img');
