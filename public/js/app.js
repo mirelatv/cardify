@@ -20,3 +20,4 @@ window.addEventListener('load', function () {
   });
   // Llave de cierre de función general
 });
+
